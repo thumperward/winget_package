@@ -10,6 +10,6 @@ unless os.windows?
   end
 end
 
-describe package('Gimp') do
-  it { should exist }
+describe package('GIMP 2.10.18') do
+  it { should be_installed }
 end

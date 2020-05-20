@@ -7,6 +7,3 @@ suites:
       - windows-10-virtualbox
       # - windows-10-docker
       # - windows-2016
-    # run_list:
-    #   # - recipe[default]
-    #   - test::default

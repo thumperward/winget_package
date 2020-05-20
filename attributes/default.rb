@@ -1,4 +1,5 @@
 #
+# Author:: Chris Cunningham (<therealchriscunningham@outlook.com>)
 # Cookbook:: winget
 # Attributes:: default
 #
