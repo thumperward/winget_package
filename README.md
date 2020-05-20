@@ -42,7 +42,8 @@ end
 -   WinGet does not work correctly under WinRM and so Test Kitchen will fail
     when trying to install a resource. As a workaround, you can log onto the
     instance that was created and manually run `chef-zero` from the Test
-    Kitchen cache to complete the run. This is an upstream bug.
+    Kitchen cache to complete the run. This is an 
+    [upstream bug](/microsoft/winget-cli/issues/256).
 
 ## TODO
 
