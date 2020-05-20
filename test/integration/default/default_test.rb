@@ -1,4 +1,4 @@
-# InSpec test for recipe winget_package::default
+# InSpec test for recipe winget::default
 
 # The InSpec reference, with examples and extensive documentation, can be
 # found at https://www.inspec.io/docs/reference/resources/
@@ -10,7 +10,6 @@ unless os.windows?
   end
 end
 
-# This is an example test, replace it with your own test.
-describe port(80), :skip do
-  it { should_not be_listening }
+describe package('Gimp') do
+  it { should exist }
 end

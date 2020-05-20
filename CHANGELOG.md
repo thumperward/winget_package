@@ -1,11 +1,12 @@
-# winget_package CHANGELOG
+# winget CHANGELOG
 
-This file is used to list changes made in each version of the winget_package cookbook.
+This file is used to list changes made in each version of the `winget`
+cookbook.
 
 # 0.1.0
 
 Initial release.
 
-- change 0
-- change 1
-
+-   Installation of `winget` executable
+-   `winget` resource to install arbitrary packages using `winget`
+-   Unit tests
